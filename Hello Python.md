@@ -2,4 +2,4 @@
 This repository pertains to the information from EDX's course, "Introduction to Python for Data Science"
 
 ## The Python Interface
-<span style="color:blue">some *This is Blue italic.* text</span>
+<span style>some *This is Blue italic.* text</span>
