@@ -8,7 +8,8 @@
 
 *3. Hit Submit Answer to execute the Python script and receive feedback.*
 
-``` # Example, do not modify!
+``` 
+# Example, do not modify!
 print(5 / 8)
 
 # Put code below here
