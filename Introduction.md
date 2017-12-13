@@ -1,5 +1,5 @@
  ## EDX-introduction-to-Python-for-Data-Science
  # Introduction
   Hi my name is Ben Svoboda. I have completed a course, which is an introduction to Data Science in Python by EDX. I wanted to put my answers to the exercises in a GitHub repository, so anyone can view them all at once. The full course can be found at this link, "https://www.edx.org/course/introduction-python-data-science-microsoft-dat208x-8" and I recommend completing the course while following along her. This course has an interactive ipython shell which you can compile whenever using the "run code" button. When you think you have obtained the correct answer, you can press the "submit answer" button and you will be given feedback. If the answer is not correct, it will tell you what you could fix to accomplish the problem. If you still have issues, you can ask you hints that will push you towards the correct response. Each exercise will have a section about the concepts used and the instructions with the exercise. 
-  Good Luck!
   
+  Good Luck! 
