@@ -38,7 +38,7 @@ print(7 + 10)
 # 3. Python as a calculator
 **Exercise**: 
 Python is perfectly suited to do basic calculations. Apart from addition, subtraction, multiplication and division, there is also support for more advanced operations such as:
-* Exponentiation: . This operator raises the number to its left to the power of the number to its right: for example 4**2 will give 16.
+* Exponentiation: ** . This operator raises the number to its left to the power of the number to its right: for example 4**2 will give 16.
 
 * Modulo: %. It returns the remainder of the division of the number to the left by the number on its right, for example 18 % 7 equals 4.
 
