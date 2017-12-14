@@ -28,11 +28,9 @@ To add comments to your Python script, you can use the '#' tag. These comments a
 **Answer:**
 ``` 
 # Just testing division
-
 print(5 / 8)
 
 #Addition works too
-
 print(7 + 10)
 
 ```
