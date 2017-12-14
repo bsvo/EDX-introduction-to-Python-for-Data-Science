@@ -8,6 +8,7 @@ x = 5
 You can now use the name of this variable, x, instead of the actual value, 5.
 
 *Instructions:*
+
 *1. Create a variable savings with the value 100.*
 
 *2. Check out this variable by typing print(savings) in the script.*
