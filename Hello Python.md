@@ -24,3 +24,15 @@ To add comments to your Python script, you can use the '#' tag. These comments a
 *Instructions:*
 
  *1. Above the print(7 + 10), add the comment Addition works too.*
+
+**Answer:**
+``` 
+# Just testing division
+
+print(5 / 8)
+
+#Addition works too
+
+print(7 + 10)
+
+```
