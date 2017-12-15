@@ -61,10 +61,11 @@ In the previous exercise, you worked with two Python data types:
 
 * float, or floating point: a number that has both an integer and fractional part, separated by a point. factor, with the value 1.10, is an example of a float.
 
-* Next to numerical data types, there are two other very common data types:
+Next to numerical data types, there are two other very common data types:
 
 * str, or string: a type to represent text. You can use single or double quotes to build a string.
-bool, or boolean: a type to represent logical values. Can only be True or False.
+
+* bool, or boolean: a type to represent logical values. Can only be True or False.
 
 *Instructions:*
 
