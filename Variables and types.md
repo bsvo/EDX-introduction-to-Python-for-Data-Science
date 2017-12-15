@@ -77,7 +77,8 @@ Next to numerical data types, there are two other very common data types:
 
 **Answer:**
 
-```# Create a variable desc
+```
+# Create a variable desc
 desc="compound interest"
 
 # Create a variable profitable
