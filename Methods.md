@@ -1,4 +1,4 @@
-## Hello World - (EDX introduction to Python for Data Science)
+## Methods - (EDX introduction to Python for Data Science)
 # 1. String Methods
 **Exercise:** 
 Strings come with a bunch of methods. Follow the instructions closely to discover some of them. If you want to discover them in more detail, you can always type help(str) in the IPython Shell.
