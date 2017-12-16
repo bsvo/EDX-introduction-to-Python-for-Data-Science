@@ -31,3 +31,68 @@ print(areas[-1])
 
 # Print out the area of the living room
 print(areas[5])
+```
+
+# 2. Subset and calculate
+After you've extracted values from a list, you can use them to perform additional calculations. Take this example, where the second and fourth element of a list x are extracted. The strings that result are pasted together using the + operator:
+
+x = ["a", "b", "c", "d"]
+print(x[1] + x[3])
+
+
+*Instructions:*
+
+*1. Using a combination of list subsetting and variable assignment, create a new variable, eat_sleep_area, that contains the sum of the area of the kitchen and the area of the bedroom.*
+
+*2. Print this new variable eat_sleep_area.*
+
+**Answer:**
+
+```
+# Create the areas list
+areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
+
+# Sum of kitchen and bedroom area: eat_sleep_area
+eat_sleep_area = (areas[3]+areas[7])
+
+# Print the variable eat_sleep_area
+print(eat_sleep_area)
+```
+# 3. Slicing and Dicing
+Selecting single values from a list is just one part of the story. It's also possible to slice your list, which means selecting multiple elements from your list. Use the following syntax:
+
+my_list[start:end]
+
+The start index will be included, while the end index is not.
+
+The code sample below shows an example. A list with "b" and "c", corresponding to indexes 1 and 2, are selected from a list x:
+
+x = ["a", "b", "c", "d"]
+x[1:3]
+
+The elements with index 1 and 2 are included, while the element with index 3 is not.
+
+*Instructions:*
+
+*1. Use slicing to create a list, downstairs, that contains the first 6 elements of areas.*
+
+*2. Do a similar thing to create a new variable, upstairs, that contains the last 4 elements of areas.*
+
+*3. Print both downstairs and upstairs using print().*
+
+**Answer:**
+
+```
+# Create the areas list
+areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
+
+# Use slicing to create downstairs
+downstairs=areas[0:6]
+
+# Use slicing to create upstairs
+upstairs=areas[6:10]
+
+# Print out downstairs and upstairs
+print(downstairs)
+print(upstairs)
+```
