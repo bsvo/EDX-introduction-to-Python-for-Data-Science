@@ -18,6 +18,7 @@ output = function_name(input)
 *2. Use len() to get the length of the list var1. Wrap it in a print() call to directly print it out.*
 
 *3. Use int() to convert var2 to an integer. Store the output as out2.*
+
 **Answer:**
 
 ```
@@ -58,6 +59,7 @@ Two lists have been created for you on the right. Can you paste them together an
 *2. Call sorted() on full and specify the reverse argument to be True. Save the sorted list as full_sorted.*
 
 *3. Finish off by printing out full_sorted.*
+
 **Answer:**
 
 ```
