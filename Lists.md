@@ -1,23 +1,34 @@
 ## Hello World - (EDX introduction to Python for Data Science)
-# 1. Variable Assignment
+# 1. Create a list
 **Exercise:**
-In Python, a variable allows you to refer to a value with a name. To create a variable use =, like this example:
+As opposed to int, bool etc, a list is a compound data type: you can group values together:
 
-x = 5
+a = "is"
+b = "nice"
+my_list = ["my", "list", a, b]
 
-You can now use the name of this variable, x, instead of the actual value, 5.
+After measuring the height of your family, you decide to collect some information on the house you're living in. The areas of the different parts of your house are stored in separate variables for now, as shown in the script.
 
 *Instructions:*
 
-*1. Create a variable savings with the value 100.*
+*1.Create a list, areas, that contains the area of the hallway (hall), kitchen (kit), living room (liv), bedroom (bed) and bathroom (bath), in this order. Use the predefined variables.*
 
-*2. Check out this variable by typing print(savings) in the script.*
+*2. Print areas with the print() function.*
 
 **Answer:**
 
-```# Create a variable savings
-savings=100
+```
+# area variables (in square meters)
+hall = 11.25
+kit = 18.0
+liv = 20.0
+bed = 10.75
+bath = 9.50
 
-# Print out savings
-print(savings)
+# Create list areas
+areas= [hall,kit,liv,bed,bath]
+
+# Print areas
+print(areas)
+
 ```
