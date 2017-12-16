@@ -32,3 +32,4 @@ areas= [hall,kit,liv,bed,bath]
 print(areas)
 
 ```
+ 
