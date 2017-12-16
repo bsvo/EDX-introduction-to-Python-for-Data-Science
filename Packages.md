@@ -1,4 +1,4 @@
-## Hello World - (EDX introduction to Python for Data Science)
+## Packages - (EDX introduction to Python for Data Science)
 # 1. Import package
 **Exercise:** 
 As a data scientist, some notions of geometry never hurt. Let's refresh some of the basics. For a fancy clustering algorithm, you want to find the circumference C and area A of a circle. When the radius of the circle is r, you can calculate C and A as:
