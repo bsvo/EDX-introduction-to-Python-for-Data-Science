@@ -74,7 +74,7 @@ It's now possible to calculate the BMI of each baseball player. Python code to c
 
 *1. Create a Numpy array from the weight list with the correct units. Multiply by 0.453592 to go from pounds to kilograms. Store the resulting Numpy array as np_weight_kg.*
 
-*2. Use np_height_m and np_weight_kg to calculate the BMI of each player. Use the following equation: *
+*2. Use np_height_m and np_weight_kg to calculate the BMI of each player. Use the following equation:*
 
 *BMI=(weight(kg))/(height(m)^2)*
 
