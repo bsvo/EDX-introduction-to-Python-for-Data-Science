@@ -64,3 +64,127 @@ np_height_m= np_height*.0254
 # Print np_height_m
 print(np_height_m)
 ```
+
+# 3. Baseball player's BMI
+**Exercise:** 
+The MLB also offers to let you analyze their weight data. Again, both are available as regular Python lists: height and weight. height is in inches and weight is in pounds.
+
+It's now possible to calculate the BMI of each baseball player. Python code to convert height to a Numpy array with the correct units is already available in the workspace. Follow the instructions step by step and finish the game!
+*Instructions:*
+
+*1. Create a Numpy array from the weight list with the correct units. Multiply by 0.453592 to go from pounds to kilograms. Store the resulting Numpy array as np_weight_kg.*
+
+*2. Use np_height_m and np_weight_kg to calculate the BMI of each player. Use the following equation: 
+
+BMI=(weight(kg))/(height(m)^2)
+
+Save the resulting numpy array as bmi.
+
+*3. Print out bmi.*
+
+**Answer:**
+
+```
+# height and weight are available as a regular lists
+
+# Import numpy
+import numpy as np
+
+# Create array from height with correct units: np_height_m
+np_height_m = np.array(height) * 0.0254
+
+# Create array from weight with correct units: np_weight_kg
+np_weight_kg=np.array(weight)*.453592
+
+# Calculate the BMI: bmi
+bmi=(np_weight_kg)/((np_height_m)**2)
+
+# Print out bmi
+print(bmi)
+```
+
+# 4. Lightweight baseball players
+**Exercise:** 
+To subset both regular Python lists and Numpy arrays, you can use square brackets:
+
+x = [4 , 9 , 6, 3, 1]
+x[1]
+import numpy as np
+y = np.array(x)
+y[1]
+
+For Numpy specifically, you can also use boolean Numpy arrays:
+
+high = y > 5
+y[high]
+
+The code that calculates the BMI of all baseball players is already included. Follow the instructions and reveal interesting things from the data!
+
+*Instructions*
+
+*1. Create a boolean Numpy array: the element of the array should be True if the corresponding baseball player's BMI is below 21. You can use the < operator for this. Name the array light.*
+
+*2. Print the array light.*
+
+*3. Print out a Numpy array with the BMIs of all baseball players whose BMI is below 21. Use light inside square brackets to do a selection on the bmi array.*
+
+**Answer:**
+
+```
+# height and weight are available as a regular lists
+
+# Import numpy
+import numpy as np
+
+# Calculate the BMI: bmi
+np_height_m = np.array(height) * 0.0254
+np_weight_kg = np.array(weight) * 0.453592
+bmi = np_weight_kg / np_height_m ** 2
+
+# Create the light array
+light = bmi<21
+
+
+# Print out light
+print(light)
+
+# Print out BMIs of all baseball players whose BMI is below 21
+print(bmi[light])
+```
+# 1. Subsetting Numpy Arrays
+**Exercise:** 
+You've seen it with your own eyes: Python lists and Numpy arrays sometimes behave differently. Luckily, there are still certainties in this world. For example, subsetting (using the square bracket notation on lists or arrays) works exactly the same. To see this for yourself, try the following lines of code in the IPython Shell:
+
+x = ["a", "b", "c"]
+x[1]
+
+np_x = np.array(x)
+np_x[1]
+
+The script on the right already contains code that imports numpy as np, and stores both the height and weight of the MLB players as Numpy arrays.
+
+*Instructions:*
+
+*1. Subset np_weight: print out the element at index 50.*
+
+*2. Print out a sub-array of np_height: It contains the elements at index 100 up to and including index 110*
+
+**Answer:**
+
+```
+# height and weight are available as a regular lists
+
+# Import numpy
+import numpy as np
+
+# Store weight and height lists as numpy arrays
+np_weight = np.array(weight)
+np_height = np.array(height)
+
+# Print out the weight at index 50
+print(np_weight[50])
+
+# Print out sub-array of np_height: index 100 up to and including index 110
+print(np_height[100:111])
+
+```
