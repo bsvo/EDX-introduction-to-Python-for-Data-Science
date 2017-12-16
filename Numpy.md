@@ -156,7 +156,7 @@ print(light)
 # Print out BMIs of all baseball players whose BMI is below 21
 print(bmi[light])
 ```
-# 1. Subsetting Numpy Arrays
+# 5. Subsetting Numpy Arrays
 **Exercise:** 
 You've seen it with your own eyes: Python lists and Numpy arrays sometimes behave differently. Luckily, there are still certainties in this world. For example, subsetting (using the square bracket notation on lists or arrays) works exactly the same. To see this for yourself, try the following lines of code in the IPython Shell:
 
