@@ -108,14 +108,19 @@ print(bmi)
 To subset both regular Python lists and Numpy arrays, you can use square brackets:
 
 x = [4 , 9 , 6, 3, 1]
+
 x[1]
+
 import numpy as np
+
 y = np.array(x)
+
 y[1]
 
 For Numpy specifically, you can also use boolean Numpy arrays:
 
 high = y > 5
+
 y[high]
 
 The code that calculates the BMI of all baseball players is already included. Follow the instructions and reveal interesting things from the data!
@@ -156,9 +161,11 @@ print(bmi[light])
 You've seen it with your own eyes: Python lists and Numpy arrays sometimes behave differently. Luckily, there are still certainties in this world. For example, subsetting (using the square bracket notation on lists or arrays) works exactly the same. To see this for yourself, try the following lines of code in the IPython Shell:
 
 x = ["a", "b", "c"]
+
 x[1]
 
 np_x = np.array(x)
+
 np_x[1]
 
 The script on the right already contains code that imports numpy as np, and stores both the height and weight of the MLB players as Numpy arrays.
