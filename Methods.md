@@ -34,7 +34,7 @@ print(room.count('o'))
 **Exercise:** 
 Strings are not the only Python types that have methods associated with them. Lists, floats, integers and booleans are also types that come packaged with a bunch of useful methods. In this exercise, you'll be experimenting with:
 
-* index(), to get the index of the first element of a list that matches its input and
+* index(), to get the index of the first element of a list that matches its input 
 
 * count(), to get the number of times an element appears in a list.
 
