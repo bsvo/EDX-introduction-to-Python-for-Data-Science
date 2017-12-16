@@ -1,4 +1,4 @@
-## Hello World - (EDX introduction to Python for Data Science)
+## List Manipulation - (EDX introduction to Python for Data Science)
 # 1. Replace list elements
 **Exercise:** 
 Replacing list elements is pretty easy. Simply subset the list and assign new values to the subset. You can select single elements or you can change entire list slices at once.
