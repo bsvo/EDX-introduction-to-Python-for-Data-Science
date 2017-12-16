@@ -1,4 +1,4 @@
-## Hello World - (EDX introduction to Python for Data Science)
+## Variables and Types - (EDX introduction to Python for Data Science)
 # 1. Variable Assignment
 **Exercise:** 
 In Python, a variable allows you to refer to a value with a name. To create a variable use =, like this example:
