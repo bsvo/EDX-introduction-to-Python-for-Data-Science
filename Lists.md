@@ -11,7 +11,7 @@ After measuring the height of your family, you decide to collect some informatio
 
 *Instructions:*
 
-*1.Create a list, areas, that contains the area of the hallway (hall), kitchen (kit), living room (liv), bedroom (bed) and bathroom (bath), in this order. Use the predefined variables.*
+*1. Create a list, areas, that contains the area of the hallway (hall), kitchen (kit), living room (liv), bedroom (bed) and bathroom (bath), in this order. Use the predefined variables.*
 
 *2. Print areas with the print() function.*
 
