@@ -1,4 +1,4 @@
-## Hello World - (EDX introduction to Python for Data Science)
+## Subsetting Lists - (EDX introduction to Python for Data Science)
 # 1. Subset and conquer
 **Exercise:** 
 Subsetting Python lists is a piece of cake. Take the code sample below, which creates a list x and then selects "b" from it. Remember that this is the second element, so it has index 1. You can also use negative indexing.
