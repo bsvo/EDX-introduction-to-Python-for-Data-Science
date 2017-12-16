@@ -117,7 +117,7 @@ Do you think there's a relationship between population and life expectancy of a 
 
 *1. Start from scratch: import matplotlib.pyplot as plt.*
 
-*2. BBuild a scatter plot, where pop is mapped on the horizontal axis, and life_exp is mapped on the vertical axis.*
+*2. Build a scatter plot, where pop is mapped on the horizontal axis, and life_exp is mapped on the vertical axis.*
 
 *3. Finish the script with plt.show() to actually display the plot. Do you see a correlation?*
 
