@@ -1,7 +1,6 @@
 ## Numpy Basic Statistics - (EDX introduction to Python for Data Science)
 # 1. Average versus median
 **Exercise:** 
-
 You now know how to use Numpy functions to a get a better feeling for your data. It basically comes down to importing Numpy and then calling several simple functions on the Numpy arrays:
 
 import numpy as np
