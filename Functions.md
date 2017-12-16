@@ -5,12 +5,11 @@ Out of the box, Python offers a bunch of built-in functions to make your life as
 
 Calling a function is easy. To get the type of 3.0 and store the output as a new variable, result, you can use the following:
 
-    result = type(3.0)
+result = type(3.0)
 
 The general recipe for calling functions is thus:
 
-    output = function_name(input)
-
+output = function_name(input)
 
 *Instructions:*
 
@@ -48,7 +47,7 @@ key=None means that if you don't specify the key argument, it will be None. reve
 
 In this exercise, you'll only have to specify iterable and reverse, not key. The first input you pass to sorted() will obviously be matched to the iterable argument, but what about the second input? To tell Python you want to specify reverse without changing anything about key, you can use =:
 
-    sorted(___, reverse = ___)
+sorted(___, reverse = ___)
     
 Two lists have been created for you on the right. Can you paste them together and sort them in descending order?
 
