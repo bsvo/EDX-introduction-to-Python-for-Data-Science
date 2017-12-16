@@ -1,4 +1,4 @@
-## Hello World - (EDX introduction to Python for Data Science)
+## Lists - (EDX introduction to Python for Data Science)
 # 1. Create a list
 **Exercise:**
 As opposed to int, bool etc, a list is a compound data type: you can group values together:
